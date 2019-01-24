@@ -1,0 +1,152 @@
+@font-face{
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+body {
+font-family:"Myriad-Pro";
+background:url(../images/bg.jpg);
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+    padding: 84px 10px;
+
+}
+.form-heading {
+  color:#fff;
+  font-size:23px;
+}
+.title h2 {
+  color:#9a9e9e;
+  font-size:18px;
+  margin:0px 0 8px 0;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.title p {
+  color:#777777;
+  font-size:14px;
+  margin-bottom:30px;
+  line-height:24px;
+}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+}
+.login {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  padding: 34px 81px!important;
+  -webkit-box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+  -moz-box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+  box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: center;
+  color:#afb2b2;
+}
+.login-form .btn.btn-login {
+  background: #2993de none repeat scroll 0 0;
+  color:#fff;
+  border:1px solid #286896;
+  padding:10px 20px;
+  margin: 10px;
+  -webkit-box-shadow: 4px 7px 20px -2px rgba(105,105,184,0.27);
+  -moz-box-shadow: 4px 7px 20px -2px rgba(105,105,184,0.27);
+  box-shadow: 4px 7px 20px -2px rgba(105,105,184,0.27);
+
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.col-centered {
+    float: none!important;
+    margin: 0 auto;
+}
+
+.form-control-feedback {
+  top:7px!important;
+  color: #e2e1e1;
+      right: 6px!important;
+
+    }
+
+  .inscrever {
+margin:30px;
+text-decoration: underline;
+color: #999;
+font-weight: 600!important;
+  }
+
+  .resetpassword {
+margin:20px;
+font-size: 11px;
+color: #999;
+
+  }
+.info {
+
+  padding-right: 5px!important;
+}
+  .keyrus {
+border:1px solid #fff;
+background: #fff;
+text-align: center;
+padding: 3px;
+color: #838383;
+-webkit-box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+-moz-box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+box-shadow: 4px 7px 20px 0px rgba(207,207,207,1);
+  }
+
+  a {
+    color: #03A9F4!important;
+  }
+
+
+@media (max-width: 473px)  {
+
+  .login {
+padding-left: 31px!important;
+padding-right: 31px!important;
+
+  }
+}
+
+.alert-danger {
+background: #ef7373!important;
+border-radius: 6px!important;
+display: none;
+}
+
+.alert-success{
+  background: #5dde9c!important;
+  border-radius: 6px!important;
+  display: none;
+
+}
